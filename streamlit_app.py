@@ -22,7 +22,7 @@ total_downloads = tagui_v614_downloads + tagui_v6_downloads + tagui_v511_downloa
 # get users distribution for TagUI optional chrome extension
 import pandas as pd
 
-df = pd.read_csv('chrome_extension_users.csv', header = 1).tail(1).drop(columns=['Date'])
+df = pd.read_csv('chrome_extension_users_feb_2021.csv', header = 1).tail(1).drop(columns=['Date'])
 
 # expand 2-letter header country codes to country names using pycountry
 import pycountry
