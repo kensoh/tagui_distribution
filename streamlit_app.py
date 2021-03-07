@@ -6,7 +6,7 @@ tagui_v614_downloads = 0; tagui_v6_downloads = 0; tagui_v511_downloads = 0; tagu
 r = requests.get('https://api.github.com/repos/kelaberetiv/TagUI/releases').json()
 for n in range(0, len(r)):
     if r[n]['tag_name'] == 'v6.14.0':
-        tagui_v614_downloads = r[n]['assets'][0]['download_count'] + r[n]['assets'][1]['download_count'] + r[n]['assets'][2]['download_count']
+        tagui_v614_downloads = r[n]['assets'][1]['download_count'] + r[n]['assets'][2]['download_count'] + r[n]['assets'][3]['download_count']
     if r[n]['tag_name'] == 'v6.0.0':
         tagui_v6_downloads = r[n]['assets'][0]['download_count'] + r[n]['assets'][1]['download_count'] + r[n]['assets'][2]['download_count']
     if r[n]['tag_name'] == 'v5.11.0':
