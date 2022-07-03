@@ -19,7 +19,6 @@ for n in range(0, len(r)):
         tagui_latest_linux = r[n]['assets'][0]['download_count']
         tagui_latest_macos = r[n]['assets'][1]['download_count']
         tagui_latest_windows = r[n]['assets'][2]['download_count']
-        tagui_latest_windows = r[n]['assets'][2]['download_count']
     if r[n]['tag_name'] == 'v6.46.0':
         tagui_v646_downloads = r[n]['assets'][1]['download_count'] + r[n]['assets'][2]['download_count'] + r[n]['assets'][3]['download_count'] + r[n]['assets'][4]['download_count']
         tagui_excel_addin_v3 = r[n]['assets'][0]['download_count']
