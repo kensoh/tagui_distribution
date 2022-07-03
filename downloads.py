@@ -1,4 +1,4 @@
-# get TagUI downloads count from GitHub API using requests
+# get TagUI downloads count from GitHub API using requests, updated to TagUI v6.110
 import requests
 
 tagui_latest_downloads = 0; tagui_v646_downloads = 0; tagui_v614_downloads = 0; tagui_v6_downloads = 0; tagui_v511_downloads = 0; tagui_v5_rpa_python_downloads = 0;
